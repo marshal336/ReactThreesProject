@@ -8,7 +8,7 @@ const BuisnesComponent = () => {
 
   return (
     <section className={layout.section}>
-      <div className={layout.sectionInfo}>
+      <div data-aos="fade-right" data-aos-duration="1500"  className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           You do the business,
           <br className="sm:block hidden" /> we’ll handle the money.
@@ -21,7 +21,7 @@ const BuisnesComponent = () => {
         />
       </div>
 
-      <div className={`${layout.sectionImg} flex-col`}>
+      <div data-aos="fade-left" data-aos-duration="3000" className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureContent
             key={feature.id}

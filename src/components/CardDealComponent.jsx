@@ -16,7 +16,7 @@ const CardDealComponent = () => {
         </p>
         <Button />
       </div>
-      <div className={layout.sectionImg}>
+      <div data-aos="zoom-in"  data-aos-duration="1000" className={layout.sectionImg}>
         <img 
           src={card}
           className="w-full h-full"

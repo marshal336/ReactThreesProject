@@ -5,7 +5,7 @@ import styles, { layout } from "../style"
 const BillingComponent = () => {
   return (
     <section className={`${layout.sectionReverse}`}>
-      <div className={`${layout.sectionImgReverse} relative`}>
+      <div data-aos="fade-right" data-aos-duration="2000"  className={`${layout.sectionImgReverse} relative`}>
         <img
           src={bill}
           className="w-full h-full z-[5]"
@@ -15,7 +15,7 @@ const BillingComponent = () => {
         <div className='absolute z-[3] -left-1/2 top-0 w-2/4 h-2/4 rounded-full pink__gradient' />
       </div>
 
-      <div className={layout.sectionInfo}>
+      <div data-aos="fade-up" data-aos-duration="2000"  className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Easily control your <br className="md:block hidden" />
           billing & invoicing.
